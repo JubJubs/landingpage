@@ -44,6 +44,8 @@ body {
     margin: 0;
 }
 
+/*The below CSS is for the hero and header section*/
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -60,7 +62,7 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 200px;
 }
 
 .bigimg {
@@ -79,4 +81,30 @@ ul {
     align-items: center;
     list-style: none;
     gap: 32px;
+}
+
+button {
+    width: 100px;
+    border: 6px solid #3882f6;
+    border-radius: 6px;
+    color: white;
+}
+
+a {
+    all: unset;
+}
+
+/*The below CSS is for the information section*/
+
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 300px;
+}
+
+h3 {
+    text-align: center;
 }
