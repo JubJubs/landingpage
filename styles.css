@@ -1,0 +1,82 @@
+header,
+footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero p,
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+/*The above CSS is what's given to us in the guide*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    gap: 64px;
+}
+
+.heroinfo {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+img {
+    width: 100px;
+}
+
+.bigimg {
+    width: 400px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
